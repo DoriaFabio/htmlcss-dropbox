@@ -8,6 +8,12 @@
 .debug {
     border: 2px solid green;
 }
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 
 body {
     font-family: 'open-sans', sans-serif;
@@ -35,7 +41,9 @@ body {
     margin: 0 auto;
     max-width: 1200px;
 }
-
+main .container {
+    padding: 30px;
+}
 .small-container {
     margin: 0 auto;
     max-width: 1000px;
@@ -63,4 +71,11 @@ a {
 /* Colori */
 .bkg-white {
     background-color: var(--color-white);
+}
+.bkg-black {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+.bkg-light-blue {
+    background-color: var(--color-light-blue);
 }
