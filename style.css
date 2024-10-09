@@ -43,8 +43,11 @@ body {
     margin: 0 auto;
     max-width: 1200px;
 }
-main .container {
-    padding: 30px;
+#jumbo {
+    padding-top: 70px;
+}
+#jumbo p {
+    font-size: 1.3em;
 }
 .small-container {
     margin: 0 auto;
@@ -53,11 +56,12 @@ main .container {
 /* Lista */
 ul {
     list-style: none;
+    gap: 20px;
 }
 /* Ancora */
 a {
     text-decoration: none;
-    color: var(--color-black);
+    color: inherit;
 }
 
 /* Impostazioni flex */
@@ -71,7 +75,13 @@ a {
     justify-content: space-between;
 }
 .center {
-    text-align: center;
+    align-items: center;
+}
+.column {
+    flex-direction: column;
+}
+.start {
+    align-items: flex-start;
 }
 /* Colori */
 .bkg-white {
@@ -83,4 +93,36 @@ a {
 }
 .bkg-light-blue {
     background-color: var(--color-light-blue);
+}
+
+.button {
+    background-color: var(--color-blue);
+    padding: 7px 12px;
+    color: var(--color-white);
+}
+
+h1 {
+    font-size: 4em;
+}
+.w-30 {
+    width: 30%;
+}
+.w-70 {
+    width: 70%;
+}
+img {
+    width: 100%;
+    display: block;
+}
+.position {
+    position: relative;
+    top: 50px;
+}
+.arrow {
+    font-size: 2.8em;
+    margin-top: 25px;
+}
+
+.gap1 {
+    gap: 30px;
 }
