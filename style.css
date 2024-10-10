@@ -145,9 +145,11 @@ a {
     border: 1px solid var(--color-grey);
     color: var(--color-black);
 }
+
 .button-grey:hover {
     border: none;
 }
+
 .button-white {
     padding: 10px 30px;
     background-color: var(--color-white);
@@ -191,12 +193,7 @@ img {
     margin-top: 80px;
 }
 
-/* Sottotitoli sezioni */
-#plan h2 {
-    padding-bottom: 20px;
-}
-
-/* Sezione jambo */
+/* Sezione jumbo */
 #jumbo {
     padding-top: 120px;
 }
@@ -222,6 +219,18 @@ img {
 }
 
 /* Sezione piani */
+
+#plan h2,
+#FAQ h2 {
+    padding-bottom: 30px;
+    font-size: 2.5em;
+}
+
+#plan h3 {
+    font-size: 1.8em;
+    padding-bottom: 30px;
+}
+
 .col {
     width: calc((100% - 50px)/3);
     border: 1px solid var(--color-grey);
@@ -257,15 +266,19 @@ hr {
     width: 25%;
     margin: 40px 0;
 }
+
 /* Sezione Partner */
-#partner h2, p {
+#partner h2,
+p {
     padding-bottom: 30px;
 }
+
 /* Sezione Team Business */
 #team-business a {
     text-decoration: underline;
     color: var(--color-blue);
 }
+
 #team-business h2 {
     font-size: 2em;
     margin-bottom: 35px;
@@ -281,10 +294,6 @@ hr {
 }
 
 /* Sezione FAQ */
-#FAQ h2 {
-    padding-bottom: 30px;
-}
-
 details {
     border-top: 1px solid var(--color-grey);
     padding: 40px 0;
