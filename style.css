@@ -232,11 +232,11 @@ img {
 }
 
 .col {
-    width: calc((100% - 50px) / 3);
+    width: calc((100% - 80px) / 3);
 }
 
 .row {
-    gap: 25px;
+    gap: 40px;
     padding-top: 30px;
 }
 
