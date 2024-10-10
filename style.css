@@ -251,25 +251,47 @@ img {
 
 .int-col {
     padding: 30px;
-    line-height: 1.3;
 }
 
 #plan .fa-ul {
     margin-left: 25px;
+    margin-bottom: 40px;
+}
+#plan li {
+    padding: 10px 0;
 }
 
 p a {
     text-decoration: underline;
+    color: var(--color-blue);
 }
 
 hr {
     width: 25%;
     margin: 40px 0;
 }
+.check {
+    color: var(--color-blue);
+}
+.padtop-25 {
+    padding-top: 25px;
+}
+/* Sezione enterprise */
+.border {
+    border: 1px solid var(--color-grey);
+}
 
+#enterprise p  {
+    padding: 30px 25px;
+}
+#enterprise h2, #enterprise h5 {
+    padding: 7px 25px;
+}
+#enterprise .button-blue {
+    margin-right: 25px;
+}
 /* Sezione Partner */
-#partner h2,
-p {
+#partner h2, #partner p {
     padding-bottom: 30px;
 }
 
