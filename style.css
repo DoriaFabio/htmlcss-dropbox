@@ -195,14 +195,13 @@ img {
 
 /* Sezione jumbo */
 #jumbo {
-    padding-top: 120px;
+    padding-top: 150px;
 }
 
 #jumbo p {
     font-size: 1.3em;
 }
 
-/* Posizione jambo */
 .position-jambo {
     position: relative;
     top: 60px;
@@ -215,7 +214,7 @@ img {
 }
 
 .arrow:hover {
-    box-shadow: 0px 2px var(--color-grey);
+    font-size: 3.2em;
 }
 
 /* Sezione piani */
@@ -255,6 +254,7 @@ img {
     margin-left: 25px;
     margin-bottom: 40px;
 }
+
 #plan li {
     padding: 10px 0;
 }
@@ -268,41 +268,52 @@ hr {
     width: 25%;
     margin: 40px 0;
 }
+
 .check {
     color: var(--color-blue);
 }
+
 .padtop-25 {
     padding-top: 25px;
 }
+
 /* Sezione enterprise */
 .border {
     border: 1px solid var(--color-grey);
 }
 
-#enterprise p  {
+#enterprise p {
     padding: 30px 25px;
 }
-#enterprise h2, #enterprise h5 {
+
+#enterprise h2,
+#enterprise h5 {
     padding: 7px 25px;
 }
+
 #enterprise .button-blue {
     margin-right: 25px;
 }
+
 /* Sezione Partner */
-#partner h2, #partner p {
+#partner h2,
+#partner p {
     padding-bottom: 30px;
 }
+
 /* Sezione operation */
 #operation h3 {
     padding-bottom: 20px;
 }
+
 /* Sezione Team Business */
 #team-business a {
     text-decoration: underline;
     color: var(--color-blue);
 }
 
-#team-business h2, #operation h2 {
+#team-business h2,
+#operation h2 {
     font-size: 2.2em;
     margin-bottom: 35px;
 }
