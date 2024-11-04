@@ -151,6 +151,7 @@ a {
     padding: 7px 12px;
     color: var(--color-white);
     display: block;
+    transition-duration: 0.3s;
 }
 
 .button-blue:hover {
@@ -229,10 +230,11 @@ img {
 .arrow {
     font-size: 2.8em;
     margin-top: 8px;
+    transition-duration: 1s;
 }
 
 .arrow:hover {
-    font-size: 3.2em;
+    transform: scale(1.2);
 }
 
 /* Sezione piani */
